@@ -8,12 +8,23 @@ const App = () => {
   return (
     <>
     <h1>Hello From React!!!</h1>
-    <h1>Hello Moe!</h1>
-    <Greeting name='Larry'/>
-    <Greeting name='Currly'/>
-    <Greeting name='Moe'/>
+
+      <Greeting 
+        name='Larry'
+        favoriteNumber={6}
+      />
+
+      <Greeting 
+        name='Currly'
+        favoriteNumber = {42}
+      />
+
+      <Greeting 
+        name='Moe'
+        favoriteNumber = {10}
+      />
     </> 
   );
-}
+};
 
 export default App;
