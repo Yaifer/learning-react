@@ -9,9 +9,9 @@ const App = () => {
     <>
     <h1>Hello From React!!!</h1>
     <h1>Hello Moe!</h1>
-    <Greeting/>
-    <Greeting/>
-    <Greeting/>
+    <Greeting name='Larry'/>
+    <Greeting name='Currly'/>
+    <Greeting name='Moe'/>
     </> 
   );
 }
